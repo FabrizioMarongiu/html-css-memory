@@ -9,7 +9,7 @@ body{
     background-color: #add8e6;
 }
 
-.clearfix{
+main.container .clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -77,4 +77,11 @@ span.description{
 
 #visible{
     color:     #e61b87;
-};
+}
+
+
+footer{
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
